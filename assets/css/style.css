@@ -16,10 +16,7 @@
   --white: #ffffff;
   --grey: #707070;
 }
-html,
-body {
-  overflow-x: hidden;
-}
+
 body {
   font-family: "Inter", sans-serif;
   background: #f4f4f4;
