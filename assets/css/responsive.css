@@ -1,3 +1,13 @@
+@media only screen and (min-width: 1400px) {
+  .discover-application .contact-bx .add-bx-wrap::after {
+    left: calc(50% - 0px);
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .discover-application .contact-bx .add-bx-wrap::after {
+    left: calc(50% - 0px);
+  }
+}
 @media only screen and (max-width: 1200px) {
   .subheading,
   h1 {
@@ -61,7 +71,7 @@
     font-size: 20px;
     margin: 20px 0 20px;
   }
-  .achieve-goal .wraper .item{
+  .achieve-goal .wraper .item {
     height: 360px;
   }
 }
@@ -210,7 +220,7 @@
 
 @media only screen and (max-width: 768px) {
   footer .widget-wrap .widget-two,
-  footer .widget-wrap .widget-three  {
+  footer .widget-wrap .widget-three {
     width: 50%;
   }
 
@@ -247,7 +257,7 @@
     font-size: 18px;
     margin: 10px 0 10px;
   }
-  .achieve-goal .img-bx{
+  .achieve-goal .img-bx {
     height: 270px;
   }
 }
@@ -279,10 +289,6 @@
   .discover-application .contact-bx .row-wrap {
     gap: 15px;
   }
-  .discover-application .contact-bx .add-bx-wrap::before,
-  .discover-application .contact-bx .add-bx-wrap::after {
-    display: none;
-  }
   .discover-application .d-btn-wrap {
     padding: 15px 0;
     flex-direction: column;
@@ -305,7 +311,8 @@
     min-width: 220px;
   }
   .spending-achieve .card-bx .box {
-    width: 100%;
+    width: calc(100% - 50px);
+    min-width: calc(100% - 50px);
   }
   .subheading,
   h1,
@@ -358,6 +365,11 @@
   .discover-application .frm-submit button {
     font-size: 14px;
     padding: 12px 20px;
+    width: 100%;
+  }
+  .discover-application .frm-submit label {
+    font-size: 16px;
+    text-align: center;
   }
   .achieve-slider .slider-item {
     min-height: 250px;
@@ -365,16 +377,16 @@
   footer .footer-copy-right p {
     font-size: 14px;
   }
-  .banner .card-wrap .bg-screen{
+  .banner .card-wrap .bg-screen {
     height: 450px;
   }
-  .banner .card-wrap .mr > div{
+  .banner .card-wrap .mr > div {
     height: 200px;
   }
-  .achieve-goal .img-bx{
+  .achieve-goal .img-bx {
     height: 180px;
   }
-  .achieve-goal .wraper .item{
+  .achieve-goal .wraper .item {
     height: 210px;
   }
   footer .widget-wrap .widget-two,
@@ -382,22 +394,63 @@
   footer .widget-wrap .widget-four,
   footer .widget-wrap .widget-five {
     width: 50%;
+  }
+  .achieve-slider .slider-item .s-icon {
+    width: 60px;
+    height: 60px;
+  }
+  footer .log-wrap a {
+    max-width: 60px;
+  }
+  .banner .banner-bx {
+    padding: 20px 15px 380px;
+  }
+  .brand-slide {
+    margin-block-start: 0;
+  }
+  .brand-slide:before,
+  .brand-slide::after {
+    width: 60px;
+  }
+  footer .widget-wrap .widget-one {
+    order: 1;
+  }
+  footer .widget-wrap p {
+    text-align: center;
+  }
+  footer ol {
+    justify-content: center;
+  }
+  footer .widget-wrap .widget-one > div{
+    max-width: 100%;
+  }
+  .footer-header > img{
+    display: none;
+  }
+  footer .widget-wrap .widget-one > img{
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 130px;
+    width: 100%;
+  }
+  footer .footer-copy-right strong {
+    font-size: 14px;
 }
-.achieve-slider .slider-item .s-icon {
-  width: 70px;
-  height: 70px;
+.discover-application .contact-bx .add-bx-wrap::after,
+.discover-application .contact-bx .row-wrap small{
+  display: none;
 }
-footer .log-wrap a {
-  max-width: 60px;
+.discover-application .contact-bx .addressbx .add-bx-wrap > div:nth-child(1)::before {
+  bottom: -6px;
 }
-.banner .banner-bx {
-  padding: 20px 15px 380px;
+.spending-achieve .card-bx::-webkit-scrollbar {
+  display: none;
 }
-.brand-slide{
-  margin-block-start: 0;
-}
-.brand-slide:before,
-.brand-slide::after{
-  width: 60px;
+.spending-achieve .card-bx{
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  transition: transform 1000ms;
+  overscroll-behavior-x: contain;
 }
 }

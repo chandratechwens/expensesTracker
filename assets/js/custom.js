@@ -5,12 +5,13 @@ $(document).ready(function () {
     margin: 20,
     center: true,
     nav: false,
-    // slideTransition: 'linear',
     dots: true,
     items: 3,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     cssEase: 'linear',
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     responsive: {
       0: {
         items: 1,
@@ -26,7 +27,7 @@ $(document).ready(function () {
 
 const header = document.getElementById('fixheader');
 window.onscroll = function () {
-  if (window.pageYOffset > 50) {
+  if (window.pageYOffset > 10) {
     header.classList.add('sticky');
   } else {
     header.classList.remove('sticky');
