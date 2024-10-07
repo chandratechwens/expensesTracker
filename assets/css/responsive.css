@@ -328,15 +328,29 @@
   }
   .achieve-goal .goal-details .g-wraping-end {
     width: 100%;
+    background-color: #ebede8;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  .achieve-goal .main-container {
+    padding: 30px 15px 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .achieve-goal  .f-cart-tp{
+    background-color: #ebede8;
+    border-radius: 30px;
+    padding: 15px;
+    margin-block-end: 30px;
   }
   .achieve-goal .goal-details .position-img {
     position: static;
   }
-  .achieve-goal .main-container {
-    padding: 30px 0px 30px;
-  }
+
   .spending-achieve {
-    margin-block-start: 0;
+    margin-block-start: 30px;
   }
   .discover-application h3 {
     font-size: 18px;
@@ -403,10 +417,10 @@
     max-width: 60px;
   }
   .banner .banner-bx {
-    padding: 20px 15px 380px;
+    padding: 20px 15px 250px;
   }
   .brand-slide {
-    margin-block-start: 0;
+    margin-block-start: 10px;
   }
   .brand-slide:before,
   .brand-slide::after {
@@ -453,4 +467,26 @@
   transition: transform 1000ms;
   overscroll-behavior-x: contain;
 }
+.banner h1{
+  font-size: 28px;
+  line-height: 1.5;
+}
+.banner .click-bx{
+  position: static;
+  order: 1;
+  display: block;
+  width: 100%;
+  transform: none;
+  margin: 10px 0;
+}
+
+.banner .animate-round,
+.click-bx > img{
+  margin: auto
+}
+.brand-slide img{
+  height: 30px;
+}
+.spending-achieve .card-bx .box {
+  padding: 10px 10px}
 }
