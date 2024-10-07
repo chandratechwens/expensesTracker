@@ -8,9 +8,9 @@ $(document).ready(function () {
     dots: true,
     items: 3,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     cssEase: 'linear',
-    autoplayTimeout:3000,
+    autoplayTimeout:1500,
     autoplayHoverPause:true,
     responsive: {
       0: {

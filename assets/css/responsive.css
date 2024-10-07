@@ -467,6 +467,11 @@
   transition: transform 1000ms;
   overscroll-behavior-x: contain;
   padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.spending-achieve .content-bx{
+  padding-inline: 15px;
 }
 .banner h1{
   font-size: 28px;
@@ -495,10 +500,12 @@
     position: -webkit-sticky;
     position: sticky;
     top: 20vh;
-    background-color: #ebede8;
     border-radius: 30px;
   }
   .achieve-goal .goal-details{
     gap: 0;
+  }
+  .spending-achieve .container-fluid{
+padding: 0;
   }
 }
