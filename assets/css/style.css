@@ -260,7 +260,27 @@ height: 194px;
 
 .brand-slide {
   overflow: hidden;
-  padding-block-start: 30px;
+  margin-block-start: 30px;
+  position: relative;
+}
+.brand-slide:before{
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.brand-slide::after{
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 .brand-slide img {
   max-width: 300px;
