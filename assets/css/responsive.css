@@ -494,6 +494,8 @@
     position: -webkit-sticky;
     position: sticky;
     top: 20vh;
+    background-color: #ebede8;
+    border-radius: 30px;
   }
   .achieve-goal .goal-details{
     gap: 0;
