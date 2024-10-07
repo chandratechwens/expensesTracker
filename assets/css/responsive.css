@@ -466,6 +466,7 @@
   scroll-behavior: smooth;
   transition: transform 1000ms;
   overscroll-behavior-x: contain;
+  padding-bottom: 10px;
 }
 .banner h1{
   font-size: 28px;
