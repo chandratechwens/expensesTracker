@@ -495,4 +495,7 @@
     position: sticky;
     top: 20vh;
   }
+  .achieve-goal .goal-details{
+    gap: 0;
+  }
 }
