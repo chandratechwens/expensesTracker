@@ -466,6 +466,7 @@ header.sticky {
   left: -100px;
   top: inherit;
   height: 260px;
+  box-shadow: -29px -4px 20px 0px #8b84840a;
 }
 /*<--===== Achieve-goal =====-->*/
 
@@ -509,11 +510,11 @@ header.sticky {
   transform: translate(5px, -5px);
 }
 .spending-achieve .card-bx .box:nth-child(3):hover {
-  box-shadow: -3px 3px 10px 0px #9cd7cd;
+  box-shadow: 5px -2px 10px 0px #9cd7cd;
   transform: translate(-5px, 5px);
 }
 .spending-achieve .card-bx .box:nth-child(4):hover {
-  box-shadow: 1px 3px 10px 0px #9cd7cd;
+  box-shadow: -5px -3px 10px 0px #9cd7cd;
   transform: translate(5px, 5px);
 }
 .spending-achieve .card-bx .box img {
