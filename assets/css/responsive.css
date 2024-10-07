@@ -393,4 +393,11 @@ footer .log-wrap a {
 .banner .banner-bx {
   padding: 20px 15px 380px;
 }
+.brand-slide{
+  margin-block-start: 0;
+}
+.brand-slide:before,
+.brand-slide::after{
+  width: 60px;
+}
 }

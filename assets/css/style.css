@@ -266,7 +266,7 @@ height: 194px;
 .brand-slide:before{
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100px;
+  height: 100%;
   position: absolute;
   width: 200px;
   z-index: 2;
@@ -274,7 +274,7 @@ height: 194px;
 .brand-slide::after{
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100px;
+  height: 100%;
   position: absolute;
   width: 200px;
   z-index: 2;
