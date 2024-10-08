@@ -7,6 +7,15 @@
   .discover-application .contact-bx .add-bx-wrap::after {
     left: calc(50% - 0px);
   }
+  footer .widget-wrap .widget-mdl {
+    width: 40%;
+  }
+  footer .widget-wrap .widget-end {
+    width: 27%;
+  }
+  footer ol {
+    gap: 15px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .subheading,
@@ -53,12 +62,6 @@
     font-size: 18px;
     margin-bottom: 3px;
   }
-  footer .widget-wrap .widget-one {
-    width: 30%;
-  }
-  footer .widget-wrap .widget-three {
-    width: 23%;
-  }
   .achieve-goal .content-bx h3 {
     font-size: 24px;
     line-height: 30px;
@@ -74,6 +77,12 @@
   .achieve-goal .wraper .item {
     height: 360px;
   }
+  /* footer .widget-wrap .widget-mdl{
+    width: 36%;
+  }
+  footer .widget-wrap .widget-end {
+    width: 31%;
+} */
 }
 
 @media only screen and (max-width: 992px) {
@@ -149,29 +158,6 @@
     max-width: 50px;
   }
 
-  footer .widget-wrap .widget-one {
-    width: 100%;
-  }
-  footer .widget-wrap .widget-two {
-    width: 20%;
-  }
-  footer .widget-wrap .widget-three {
-    width: 35%;
-  }
-  footer .widget-wrap .widget-four {
-    width: 22%;
-  }
-  footer .widget-wrap .widget-five {
-    width: 23%;
-  }
-  footer .widget-wrap .widget-one > div {
-    max-width: 400px;
-    width: 100%;
-    margin-block-end: 30px;
-  }
-  footer .log-wrap h3 {
-    font-size: 24px;
-  }
   .brand-slide li {
     min-width: 200px;
   }
@@ -213,37 +199,33 @@
     transform: translateX(-50%);
     right: auto;
   }
-  .banner .card-wrap .bg-screen > div{
+  .banner .card-wrap .bg-screen > div {
     height: 100%;
+  }
+  footer .widget-wrap .widget-end {
+    width: 100%;
+  }
+  footer .widget-end img {
+    margin: auto;
+  }
+  footer ol {
+    justify-content: center;
+  }
+  footer .widget-wrap .widget-mdl,
+  footer .widget-wrap .widget-start {
+    width: 50%;
+    border-right: 0;
+  }
+  footer .widget-wrap > div:last-child {
+    border-top: 1px solid #364747;
+    padding-top: 20px;
+  }
+  footer .copy-right {
+    margin-top: 20px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  footer .widget-wrap .widget-two,
-  footer .widget-wrap .widget-three {
-    width: 50%;
-  }
-
-  footer .widget-wrap .widget-four,
-  footer .widget-wrap .widget-five {
-    width: 50%;
-  }
-  footer .widget-wrap {
-    gap: 30px 0;
-  }
-  footer .widget-wrap .widget-one > div {
-    margin-block-end: 0;
-  }
-  footer .log-wrap h3 {
-    font-size: 22px;
-    line-height: 27px;
-  }
-  footer .log-wrap img {
-    max-width: 50px;
-  }
-  .footer-header > img {
-    max-width: 130px;
-  }
   .subheading,
   h1,
   .spending-achieve h3 {
@@ -260,26 +242,18 @@
   .achieve-goal .img-bx {
     height: 270px;
   }
+  footer .widget-wrap .widget-mdl {
+    width: 60%;
+  }
+  footer .widget-wrap .widget-start {
+    width: 40%;
+  }
+  footer ul li a {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
-  footer .footer-header {
-    flex-direction: column;
-    margin-block-end: 20px;
-  }
-  footer .log-wrap h3 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-  footer .widget-wrap ul li a {
-    font-size: 12px;
-  }
-  footer .widget-wrap ul li {
-    margin-block-end: 0;
-  }
-  footer .widget-wrap h6 {
-    margin-bottom: 4px;
-  }
   .discover-application .contact-bx .row-wrap > div {
     width: 100%;
   }
@@ -339,7 +313,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .achieve-goal  .f-cart-tp{
+  .achieve-goal .f-cart-tp {
     background-color: #ebede8;
     border-radius: 30px;
     padding: 15px;
@@ -388,9 +362,6 @@
   .achieve-slider .slider-item {
     min-height: 250px;
   }
-  footer .footer-copy-right p {
-    font-size: 14px;
-  }
   .banner .card-wrap .bg-screen {
     height: auto;
   }
@@ -403,18 +374,10 @@
   .achieve-goal .wraper .item {
     height: 210px;
   }
-  footer .widget-wrap .widget-two,
-  footer .widget-wrap .widget-three,
-  footer .widget-wrap .widget-four,
-  footer .widget-wrap .widget-five {
-    width: 50%;
-  }
+
   .achieve-slider .slider-item .s-icon {
     width: 60px;
     height: 60px;
-  }
-  footer .log-wrap a {
-    max-width: 60px;
   }
   .banner .banner-bx {
     padding: 20px 15px 250px;
@@ -426,87 +389,104 @@
   .brand-slide::after {
     width: 60px;
   }
-  footer .widget-wrap .widget-one {
-    order: 1;
-  }
-  footer .widget-wrap p {
-    text-align: center;
-  }
-  footer ol {
-    justify-content: center;
-  }
-  footer .widget-wrap .widget-one > div{
-    max-width: 100%;
-  }
-  .footer-header > img{
+
+  .discover-application .contact-bx .add-bx-wrap::after,
+  .discover-application .contact-bx .row-wrap small {
     display: none;
   }
-  footer .widget-wrap .widget-one > img{
+  .discover-application
+    .contact-bx
+    .addressbx
+    .add-bx-wrap
+    > div:nth-child(1)::before {
+    bottom: -6px;
+  }
+  .spending-achieve .card-bx::-webkit-scrollbar {
+    display: none;
+  }
+  .spending-achieve .card-bx {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    transition: transform 1000ms;
+    overscroll-behavior-x: contain;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .spending-achieve .content-bx {
+    padding-inline: 15px;
+    text-align: center;
+  }
+  .achieve-goal .wraping > div {
+    text-align: center;
+  }
+  .banner h1 {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .banner .click-bx {
+    position: static;
+    order: 1;
     display: block;
-    margin: 0 auto 10px;
-    max-width: 130px;
     width: 100%;
+    transform: none;
+    margin: 10px 0;
   }
-  footer .footer-copy-right strong {
-    font-size: 14px;
-}
-.discover-application .contact-bx .add-bx-wrap::after,
-.discover-application .contact-bx .row-wrap small{
-  display: none;
-}
-.discover-application .contact-bx .addressbx .add-bx-wrap > div:nth-child(1)::before {
-  bottom: -6px;
-}
-.spending-achieve .card-bx::-webkit-scrollbar {
-  display: none;
-}
-.spending-achieve .card-bx{
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  transition: transform 1000ms;
-  overscroll-behavior-x: contain;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.spending-achieve .content-bx{
-  padding-inline: 15px;
-  text-align: center;
-}
-.achieve-goal .wraping > div{
-  text-align: center;
-}
-.banner h1{
-  font-size: 28px;
-  line-height: 1.5;
-}
-.banner .click-bx{
-  position: static;
-  order: 1;
-  display: block;
-  width: 100%;
-  transform: none;
-  margin: 10px 0;
-}
 
-.banner .animate-round,
-.click-bx > img{
-  margin: auto
-}
-.brand-slide img{
-  height: 30px;
-}
-.spending-achieve .card-bx .box {
-  padding: 10px 10px}
-
-  .spending-achieve .container-fluid{
-padding: 0;
+  .banner .animate-round,
+  .click-bx > img {
+    margin: auto;
   }
-  .banner .card-wrap{
+  .brand-slide img {
+    height: 30px;
+  }
+  .spending-achieve .card-bx .box {
+    padding: 10px 10px;
+  }
+
+  .spending-achieve .container-fluid {
+    padding: 0;
+  }
+  .banner .card-wrap {
     padding: 0 15px;
   }
   .achieve-goal .goal-details {
     margin-block-start: 20px;
   }
+
+  footer .widget-wrap .widget-start,
+  footer .widget-wrap .widget-mdl,
+  footer .widget-wrap .widget-end {
+    width: 100%;
+  }
+  footer .widget-wrap > div:nth-child(2),
+  footer .widget-wrap > div:last-child {
+    padding-left: 0;
+  }
+  footer .widget-wrap .widget-mdl {
+    border: 0;
+  }
+  .discover-application .frm-submit {
+    justify-content: center;
+  }
+  footer {
+    padding: 30px 0 0;
+  }
+  footer .widget-end img {
+    max-width: 120px;
+  }
+  footer ol {
+    margin-block-start: 20px;
+  }
+  footer .copy-right strong {
+    font-size: 14px;
+  }
+  footer .widget-wrap > div:first-child{
+    padding-right: 0;
+    text-align: center;
+  }
+  footer .widget-start p {
+    margin-block-end: 20px;
+}
 }
