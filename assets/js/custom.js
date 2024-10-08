@@ -35,4 +35,27 @@ window.onscroll = function () {
 };
 
 
-AOS.init();
+// if(window.innerWidth > 1000) {
+//   AOS.init();
+// }
+
+
+if (window.innerWidth > 1000) {
+  AOS.init();
+} else {
+
+  document.querySelectorAll('[data-aos]').forEach((element) => {
+    element.removeAttribute('data-aos');
+  });
+}
+
+
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 1000) {
+    AOS.init();
+  } else {
+    document.querySelectorAll('[data-aos]').forEach((element) => {
+      element.removeAttribute('data-aos');
+    });
+  }
+});

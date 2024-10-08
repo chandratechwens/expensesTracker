@@ -94,6 +94,8 @@
   .banner .card-wrap .bg-screen {
     width: 100%;
     padding-top: 150px;
+    justify-content: center;
+    margin-bottom: 30px;
   }
   .animate-round {
     height: 100px;
@@ -193,11 +195,6 @@
     width: calc(70% - 20px);
     padding: 15px;
   }
-  .banner .card-wrap .bg-screen img {
-    width: 60%;
-    margin: auto;
-    display: block;
-  }
   .banner .click-bx {
     top: 0%;
   }
@@ -215,6 +212,9 @@
     left: 50%;
     transform: translateX(-50%);
     right: auto;
+  }
+  .banner .card-wrap .bg-screen > div{
+    height: 100%;
   }
 }
 
@@ -392,7 +392,7 @@
     font-size: 14px;
   }
   .banner .card-wrap .bg-screen {
-    height: 450px;
+    height: auto;
   }
   .banner .card-wrap .mr > div {
     height: 200px;
@@ -472,6 +472,10 @@
 }
 .spending-achieve .content-bx{
   padding-inline: 15px;
+  text-align: center;
+}
+.achieve-goal .wraping > div{
+  text-align: center;
 }
 .banner h1{
   font-size: 28px;
@@ -496,16 +500,10 @@
 .spending-achieve .card-bx .box {
   padding: 10px 10px}
 
-  .achieve-goal .main-container > div{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 20vh;
-    border-radius: 30px;
-  }
-  .achieve-goal .goal-details{
-    gap: 0;
-  }
   .spending-achieve .container-fluid{
 padding: 0;
+  }
+  .banner .card-wrap{
+    padding: 0 15px;
   }
 }

@@ -155,6 +155,8 @@ header.sticky {
 .banner .card-wrap .bg-screen {
   width: 50%;
   height: 540px;
+  display: flex;
+  align-items: center;
 }
 .banner .card-wrap .bg-screen img {
   width: 100%;
@@ -991,3 +993,38 @@ footer .widget-wrap .widget-one > img {
   display: none;
 }
 /*<--===== Footer =====-->*/
+.banner .card-wrap .center-img {
+  position: relative;
+  z-index: 10;
+}
+.banner .card-wrap .left-img{
+  transform: translateX(100%);
+  animation: slideOut 2s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.banner .card-wrap .right-img {
+  transform: translateX(-100%);
+  animation: slideOutRight 2s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+
+
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
