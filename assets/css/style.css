@@ -209,7 +209,7 @@ header.sticky {
   z-index: -1;
   transform: translateY(-50%);
   opacity: 0;
-  animation: visual 2s ease-in-out forwards;
+  animation: visual 5s ease-in-out forwards;
 }
 
 .banner .bg-screen .center-img::after {
@@ -223,7 +223,7 @@ header.sticky {
   z-index: -1;
   transform: translateY(-50%);
   opacity: 0;
-  animation: visual 2s ease-in-out forwards;
+  animation: visual 5s ease-in-out forwards;
 }
 
 @keyframes visual {
