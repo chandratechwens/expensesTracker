@@ -183,6 +183,83 @@ header.sticky {
   max-width: 215px;
   height: 264px;
 }
+.banner .card-wrap .center-img {
+  position: relative;
+  z-index: 10;
+}
+.banner .card-wrap .left-img{
+  transform: translateX(100%);
+  animation: slideOut 2s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.banner .card-wrap .right-img {
+  transform: translateX(-100%);
+  animation: slideOutRight 2s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+
+.banner .bg-screen .center-img:before {
+  content: '';
+  width: 85px;
+  left: 0;
+  top: 50%;
+  height: 80%;
+  position: absolute;
+  box-shadow: rgb(100 100 111 / 91%) 0px 7px 29px 0px;
+  z-index: -1;
+  transform: translateY(-50%);
+  opacity: 0;
+  animation: visual 2s ease-in-out forwards;
+}
+
+.banner .bg-screen .center-img::after {
+  content: '';
+  width: 85px;
+  right: 0;
+  top: 50%;
+  height: 80%;
+  position: absolute;
+  box-shadow: rgb(100 100 111 / 91%) 0px 7px 29px 0px;
+  z-index: -1;
+  transform: translateY(-50%);
+  opacity: 0;
+  animation: visual 2s ease-in-out forwards;
+}
+
+
+@keyframes visual {
+  0% {
+   opacity: 0;
+  }
+  100% {
+ opacity: 1;
+  }
+}
+
+
+
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+
+
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
 .animate-round {
   height: 140px;
   width: 140px;
@@ -993,38 +1070,3 @@ footer .widget-wrap .widget-one > img {
   display: none;
 }
 /*<--===== Footer =====-->*/
-.banner .card-wrap .center-img {
-  position: relative;
-  z-index: 10;
-}
-.banner .card-wrap .left-img{
-  transform: translateX(100%);
-  animation: slideOut 2s ease-in-out forwards;
-  animation-delay: 0.5s;
-}
-.banner .card-wrap .right-img {
-  transform: translateX(-100%);
-  animation: slideOutRight 2s ease-in-out forwards;
-  animation-delay: 0.5s;
-}
-
-
-@keyframes slideOut {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(20%);
-  }
-}
-
-
-
-@keyframes slideOutRight {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(-20%);
-  }
-}
