@@ -506,4 +506,7 @@ padding: 0;
   .banner .card-wrap{
     padding: 0 15px;
   }
+  .achieve-goal .goal-details {
+    margin-block-start: 20px;
+  }
 }
